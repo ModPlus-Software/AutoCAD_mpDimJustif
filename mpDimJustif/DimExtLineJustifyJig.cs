@@ -11,8 +11,6 @@
 
     public class DimExtLineJustifyJig : DrawJig
     {
-        private const string LangItem = "mpDimJustif";
-
         private Point3d _prevPoint;
         private Point3d _currentPoint;
         private Point3d _startPoint;
@@ -33,7 +31,7 @@
 
         protected override SamplerStatus Sampler(JigPrompts prompts)
         {
-            var jppo = new JigPromptPointOptions("\n" + Language.GetItem(LangItem, "msg4"))
+            var jppo = new JigPromptPointOptions($"\n{Language.GetItem("msg4")}")
             {
                 BasePoint = _line.StartPoint,
                 UseBasePoint = true,

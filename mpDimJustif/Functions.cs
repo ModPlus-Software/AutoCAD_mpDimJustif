@@ -25,7 +25,7 @@
                 {
                     var pso = new PromptSelectionOptions
                     {
-                        MessageForAdding = "\n" + Language.GetItem(LangItem, "msg3")
+                        MessageForAdding = $"\n{Language.GetItem(LangItem, "msg3")}"
                     };
 
                     var sf = new SelectionFilter(new[] { new TypedValue((int)DxfCode.Start, "Dimension") });
@@ -33,7 +33,7 @@
                     if (psr.Status != PromptStatus.OK)
                         return;
 
-                    var ppo = new PromptPointOptions("\n" + Language.GetItem(LangItem, "msg2"));
+                    var ppo = new PromptPointOptions($"\n{Language.GetItem(LangItem, "msg2")}");
                     var ppr = ed.GetPoint(ppo);
                     if (ppr.Status != PromptStatus.OK)
                         return;
@@ -96,7 +96,7 @@
                 {
                     var pso = new PromptSelectionOptions
                     {
-                        MessageForAdding = "\n" + Language.GetItem(LangItem, "msg1")
+                        MessageForAdding = $"\n{Language.GetItem(LangItem, "msg1")}"
                     };
 
                     var sf = new SelectionFilter(new[] { new TypedValue((int)DxfCode.Start, "Dimension") });
@@ -104,7 +104,7 @@
                     if (psr.Status != PromptStatus.OK)
                         return;
 
-                    var ppo = new PromptPointOptions("\n" + Language.GetItem(LangItem, "msg2"));
+                    var ppo = new PromptPointOptions($"\n{Language.GetItem(LangItem, "msg2")}");
                     var ppr = ed.GetPoint(ppo);
                     if (ppr.Status != PromptStatus.OK)
                         return;
