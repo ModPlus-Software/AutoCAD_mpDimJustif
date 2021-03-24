@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mpDimJustif", "mpDimJustif\mpDimJustif.csproj", "{751552EB-02C1-4090-B4DD-09F8300C6BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mpDimJustif", "mpDimJustif\mpDimJustif.csproj", "{751552EB-02C1-4090-B4DD-09F8300C6BD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E45E1183-D7AB-486F-91C6-01CB5EDB5CD9}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,6 +23,7 @@ Global
 		A2019|x64 = A2019|x64
 		A2020|x64 = A2020|x64
 		A2021|x64 = A2021|x64
+		A2022|x64 = A2022|x64
 		Debug|x64 = Debug|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -44,6 +45,8 @@ Global
 		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.A2020|x64.Build.0 = A2020|x64
 		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.A2021|x64.ActiveCfg = A2021|x64
 		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.A2021|x64.Build.0 = A2021|x64
+		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.A2022|x64.ActiveCfg = Debug|x64
+		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.A2022|x64.Build.0 = Debug|x64
 		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.Debug|x64.ActiveCfg = Debug|x64
 		{751552EB-02C1-4090-B4DD-09F8300C6BD3}.Debug|x64.Build.0 = Debug|x64
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2013|x64.ActiveCfg = Debug|Any CPU
@@ -64,6 +67,8 @@ Global
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2020|x64.Build.0 = Debug|Any CPU
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2021|x64.ActiveCfg = Debug|Any CPU
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2021|x64.Build.0 = Debug|Any CPU
+		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2022|x64.ActiveCfg = Release|Any CPU
+		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.A2022|x64.Build.0 = Release|Any CPU
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{F3BDEF5F-60F6-4B53-9EAE-4F8A5D5DBD20}.Debug|x64.Build.0 = Debug|Any CPU
 	EndGlobalSection
